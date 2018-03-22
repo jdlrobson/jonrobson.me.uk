@@ -3,14 +3,6 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: [
-    'gatsby-plugin-react-helmet', 
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/pages/snips`,
-        name: "markdown-pages",
-      }
-    },
-    `gatsby-transformer-remark`
+    'gatsby-plugin-react-helmet'
   ],
 };

@@ -1,7 +1,15 @@
 .thumb {
   margin-bottom: 1.45rem;
-  width: 400px;
   padding: 0.5rem;
+  text-align: center;
+}
+
+.thumb--small {
+  width: 200px;
+}
+
+.thumb--reg {
+  width: 300px;
 }
 
 .thumb:after {
@@ -12,10 +20,12 @@
 
 .thumb--float-left {
   margin-right: 0.5em;
+  text-align: left;
 }
 
 .thumb--float-right {
   margin-left: 0.5em;
+  text-align: right;
 }
 
 .thumb__image {
@@ -25,8 +35,8 @@
 .thumb__caption {
   width: 100%;
   display: block;
-  color: white;
-  font-size: 0.8em;
+  color: #333;
+  font-size: 0.6em;
   text-align: left;
 }
 

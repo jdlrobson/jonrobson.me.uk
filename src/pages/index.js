@@ -12,7 +12,6 @@ const IndexPage = () => (
     <Thumbnail src={ME_IMG_URL}
       caption="Me in 2017, when I had lots of hair."
       sourceName="Myleen Hollero"
-      width="382" height="255"
       source="https://commons.wikimedia.org/wiki/File:Robson,_Jon_April_2015.jpg" />
     <p>This site has existed in various forms over the years. Take a trip down <Link to="/nostalgia/">memory lane</Link>!</p>
   </div>

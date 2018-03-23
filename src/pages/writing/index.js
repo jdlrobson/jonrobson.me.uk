@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './index.css'
 
+import Tinderella from './Tinderella.pdf'
+
 export default () => (
   <div>
     <h1>Writing</h1>
@@ -39,7 +41,7 @@ export default () => (
     <h2>Fiction</h2>
     <ul className="listings">
       <li>
-        <a href="/tinderella.pdf">Tinderella</a>
+        <a href={Tinderella}>Tinderella</a>
         Mash stories competition 12, October 2016.
       </li>
     </ul>

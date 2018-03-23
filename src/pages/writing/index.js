@@ -7,6 +7,8 @@ import Tinderella from './Tinderella.pdf'
 export default () => (
   <div>
     <h1>Writing</h1>
+    <p>I've written stories since I was a child, on and off. There's nothing like a good book to escape the world and to dream and ponder how things might be in an infinite universe. <a href="https://www.opendemocracy.net/transformation/araz-hachadourian/ursula-k-leguin-calls-on-fantasy-and-sci-fi-writers-to-envision-alt">Ursula K Le Guin called on fantasy and sci fi writers to envision alternatives to capitalism</a>, shortly before she died. We are the words that we eat and I believe that everyone should write, even if only for their eyes.</p>
+    <p>I have dozens of short stories that I wish will one day get published. My favorite authors and influences include <a href="https://en.m.wikipedia.org/wiki/Roald_Dahl">Roald Dahl</a>, <a href="https://en.m.wikipedia.org/wiki/Raymond_Carver">Raymond Carver</a>, <a href="https://en.m.wikipedia.org/wiki/Kurt_Vonnegut">Kurt Vonnegut</a> and <a href="https://en.m.wikipedia.org/wiki/Kurt_Vonnegut">Haruki Murakami</a>.</p>
     <h2>Non-fiction</h2>
     <ul className="listings">
       <li>

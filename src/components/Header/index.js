@@ -26,8 +26,7 @@ const Header = ( { className = '' } ) => (
     <nav className={className + ' header__nav'}>
       <Link to="/writing/" className="nav__link">Writing</Link>
       <Link to="/travels/" className="nav__link">Roaming</Link>
-      <Link to="/nostalgia/" className="nav__link">Family</Link>
-      <Link to="/nostalgia/" className="nav__link">Nostalgia</Link>
+      <Link to="/family/" className="nav__link">Family</Link>
     </nav>
   </div>
 )

@@ -14,6 +14,7 @@ const IndexPage = () => (
       sourceName="Myleen Hollero"
       width="382" height="255"
       source="https://commons.wikimedia.org/wiki/File:Robson,_Jon_April_2015.jpg" />
+    <p>This site has existed in various forms over the years. Take a trip down <Link to="/nostalgia/">memory lane</Link>!</p>
   </div>
 )
 

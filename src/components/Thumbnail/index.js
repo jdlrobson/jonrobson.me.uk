@@ -12,7 +12,7 @@ const Thumbnail = ( { src, caption, width, height, source, small = false,
     <span className="thumb__caption">
       {caption}
       { source && (
-        <small className="thumb__source"><a href={source}>{sourceName}</a></small>
+        <small className="thumb__source">Source: <a href={source}>{sourceName}</a></small>
       ) }
     </span>
   </div>

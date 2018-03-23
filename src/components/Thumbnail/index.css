@@ -1,6 +1,5 @@
 .thumb {
-  margin-bottom: 1.45rem;
-  padding: 0.5rem;
+  margin: 0.2em 0 1.45rem;
   text-align: center;
 }
 
@@ -19,12 +18,12 @@
 }
 
 .thumb--float-left {
-  margin-right: 0.5em;
+  margin-right: 1em;
   text-align: left;
 }
 
 .thumb--float-right {
-  margin-left: 0.5em;
+  margin-left: 1em;
   text-align: right;
 }
 
@@ -42,8 +41,10 @@
 
 .thumb__source {
   float: right;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .thumb a {
-  color: white;
+  color: #222;
 }

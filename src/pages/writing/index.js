@@ -14,6 +14,15 @@ export default () => (
         Medium.com, March 2018.
       </li>
       <li>
+        <a href="https://medium.com/@dlyall/an-april-rush-hour-in-san-francisco-e91249cd952d">An April Rush hour in San Francisco</a>
+        Medium.com, April 2017.
+      </li>
+      <li>
+        <a href="https://medium.com/@dlyall/the-state-of-this-europeans-union-ebd1154673ab">The State of this European’s Union
+</a>
+        Medium.com, June 2016.
+      </li>
+      <li>
         <a href="http://www.elephantjournal.com/2016/03/why-i-didnt-change-my-relationship-status-to-married/">Why I Didn't Change my Relationship Status to Married.</a>
         elephant JOURNAL, March 2016.
       </li>

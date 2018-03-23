@@ -4,3 +4,4 @@ export const SITE_TITLE = 'Jon Robson';
 export const SITE_DESCRIPTION = 'Personal site of Jon Robson';
 export const SITE_THUMB = jdlrobson;
 export const ME_IMG_URL = jdlrobson;
+export const BG_COLOR = '#00837a';

@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { SITE_TITLE } from './../../const'
+import { SITE_TITLE, BG_COLOR } from './../../const'
 import './index.css'
 
 const Header = ( { className = '' } ) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: BG_COLOR,
       marginBottom: '1.45rem',
     }}
   >

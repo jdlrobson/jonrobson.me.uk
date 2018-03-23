@@ -620,7 +620,7 @@ pre tt:after {
 
 .container {
   margin: 0 auto;
-  max-width: 960;
+  max-width: 960px;
   padding-left: 1.0875rem;
   padding-right: 1.0875rem;
 }

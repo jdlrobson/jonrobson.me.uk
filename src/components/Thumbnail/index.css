@@ -4,6 +4,20 @@
   padding: 0.5rem;
 }
 
+.thumb:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.thumb--float-left {
+  margin-right: 0.5em;
+}
+
+.thumb--float-right {
+  margin-left: 0.5em;
+}
+
 .thumb__image {
   margin-bottom: 0;
 }

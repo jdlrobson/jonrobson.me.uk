@@ -32,5 +32,6 @@ export default () => (
       caption="My grandfather, Ian Robson. One of these days I will get a photo of him in his youth"/></p>
     <p>They had two children - my father - Andrew Lyall and Sharman Louise, born in Brigend and Swansea respectively.</p>
     <p>Joan sadly passed away in April 2013 with her husband Ian, her brother John, her children and some of her grandchildren by her side. She will always be remembered.</p>
+      <p><a href="http://jdlrobson.com/familytree/John%20Robson.html">The Robson family tree</a> can be traced back to John Robson in 1791.</a>.
   </div>
 );

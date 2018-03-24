@@ -9,7 +9,7 @@ import joan from './bagg/joan.jpg'
 import hunterg from 'raw-loader!./huntergartsides.md'
 import rb from 'raw-loader!./robsonbaggs.md'
 import motivation from 'raw-loader!./motivation.md'
-import snippet from './../snippet'
+import snippet from './../../snippet'
 
 export default () => (
   <div>

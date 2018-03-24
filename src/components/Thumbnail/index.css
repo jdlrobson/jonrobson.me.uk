@@ -17,16 +17,6 @@
   clear: both;
 }
 
-.thumb--float-left {
-  margin-right: 1em;
-  text-align: left;
-}
-
-.thumb--float-right {
-  margin-left: 1em;
-  text-align: right;
-}
-
 .thumb__image {
   margin-bottom: 0;
 }
@@ -47,4 +37,18 @@
 
 .thumb a {
   color: #222;
+}
+
+@media all and ( min-width: 700px ) {
+  .thumb--float-left {
+    float: left;
+    margin-right: 1em;
+    text-align: left;
+  }
+
+  .thumb--float-right {
+    float: right;
+    margin-left: 1em;
+    text-align: right;
+  }
 }

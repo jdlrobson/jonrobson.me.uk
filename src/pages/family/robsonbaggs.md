@@ -5,10 +5,8 @@ Joan **Bagg** was born on the 2nd August 1930 to Ivor Bagg (1905) and Violet Fra
 
 [The Bagg family tree](http://jdlrobson.com/familytree/John%20David%20Bagg.html) is traced back only 3 generations.
 
-Ian Lyall **Robson** born in 1928 in Port Talbot, married Joan on the 20th February 1954 (which would soon become my birthday).
+Ian Lyall [Robson](/family/Robson) born in 1928 in Port Talbot, married Joan on the 20th February 1954 (which would soon become my birthday).
   
 They had two children - my father - Andrew Lyall and Sharman Louise, born in Brigend and Swansea respectively.
 
 Joan sadly passed away in April 2013 with her husband Ian, her brother John, her children and some of her grandchildren by her side. She will always be remembered.
-
-[The Robson family tree](http://jdlrobson.com/familytree/John%20Robson.html) can be traced back 6 generations from myself to John Robson in 1791.

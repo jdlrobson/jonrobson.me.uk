@@ -1,7 +1,7 @@
 import React from 'react'
 
 // pdfs
-import bibleRecord from './files/Family Bible Records.pdf'
+import bibleRecord from './Family Bible Records.pdf'
 
 export default () => (
   <div>

@@ -8,7 +8,8 @@ import snippet from './../../../snippet'
 
 export default () => (
   <div>
-    <h1>Robson</h1>
+    <h1>The Robson's</h1>
+    <h2>John Robson</h2>
     {snippet(intro, johnr)}
   </div>
 );

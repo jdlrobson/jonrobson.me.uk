@@ -11,6 +11,11 @@ export default () => (
     <p>I have dozens of short stories that I wish will one day get published. My favorite authors and influences include <a href="https://en.m.wikipedia.org/wiki/Roald_Dahl">Roald Dahl</a>, <a href="https://en.m.wikipedia.org/wiki/Raymond_Carver">Raymond Carver</a>, <a href="https://en.m.wikipedia.org/wiki/Kurt_Vonnegut">Kurt Vonnegut</a> and <a href="https://en.m.wikipedia.org/wiki/Kurt_Vonnegut">Haruki Murakami</a>.</p>
     <h2>Non-fiction</h2>
     <ul className="listings">
+    
+      <li>
+        <a href="https://medium.com/freely-sharing-the-sum-of-all-knowledge/why-it-took-a-long-time-to-build-that-tiny-link-preview-on-wikipedia-d5bd734df8fe">Why it took a long time to build that tiny link preview on Wikipedia</a>
+        Medium.com, April 2018.
+      </li>
       <li>
         <a href="https://medium.com/@dlyall/a-former-hitchhikers-introductory-guide-to-the-chinese-language-galaxy-29e92784d194">A former hitchhiker’s introductory guide to the Chinese language galaxy</a>
         Medium.com, March 2018.

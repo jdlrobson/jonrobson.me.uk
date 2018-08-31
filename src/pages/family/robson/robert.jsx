@@ -10,7 +10,7 @@ export default () => (
 
 <p>In 1842 (15th May), aged 22, he married <Link to='/family/oxx/maryholder/'>Mary Holder Oxx</Link>, a dress maker (aged 28). His marriage was registered in Newcastle on Tyne sup-registras district  to Mary Holder Oxx. They married at the <a href="https://en.wikipedia.org/wiki/All_Saints%27_Church,_Newcastle_upon_Tyne">All-Saints Church</a>.</p>
 
-<p>They had six children. Their first child was born in 1843 <strong>John George Robson</strong> (my great great grandfather). William Isaac (1845), Harriett Jane (1846), Hannah Mary Augusta (1849), Robert Amos (1851) and Frances Isabell Woodhouse (1854) followed.</p>
+<p>They had six children. Their first child was born in 1843 <a href="/family/robson/johngeorge">John George Robson</a> (my great great grandfather). William Isaac (1845), Harriett Jane (1846), Hannah Mary Augusta (1849), Robert Amos (1851) and Frances Isabell Woodhouse (1854) followed.</p>
 
 <p>During his life he worked as a roll turner (per his daughter Frances birth and marriage certificates and 1841 and 1861 censuses) in Middlesborough and later a mechanic at an engine works (1881 census).</p>
 

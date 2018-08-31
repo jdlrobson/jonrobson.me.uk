@@ -6,10 +6,21 @@ import Header from '../components/Header'
 import { SITE_DESCRIPTION, SITE_THUMB, SITE_TITLE } from './../const'
 import './index.css'
 
-const TemplateWrapper = ({ children }) => (
+const getLocalTitle = function ( path ) {
+  if ( path.indexOf('family/') > -1 ) {
+    return 'Family tree -'
+  } else if ( path.indexOf('writing/') > -1 ) {
+    return 'Writing - '
+  } else if ( path.indexOf('travels/') > -1 ) {
+    return 'Travelling - '
+  } else {
+    return '';
+  }
+}
+const TemplateWrapper = ({ children, location }) => (
   <div>
     <Helmet
-      title={SITE_TITLE}
+      title={getLocalTitle(location.pathname) + SITE_TITLE}
       meta={[
         { name: 'description', content: SITE_DESCRIPTION },
         { name: 'og:description', content: SITE_DESCRIPTION },

@@ -18,8 +18,8 @@ export default () => (
     Hannah Frances OXX</strong> (born 1810), <strong>
     Amass Oxx</strong> (born and died 1812), <a href="/family/oxx/maryholder">
     Mary Holder Oxx</a> (born 1814) <strong>
-    Harriett Woodhouse OXX</strong> (born 1807) <strong>
-    Hutchinson Maxwell Oxx</strong> (born 1820) <strong>
+    Harriett Woodhouse OXX</strong> (born 1807) <a href="/family/oxx/hutchinsonmaxwell">
+    Hutchinson Maxwell Oxx</a> (born 1820) <strong>
     Maxwell Oxx</strong> (born 1823) <strong>
     John William OXX</strong> (born and died 1826)
     </p>

@@ -1,9 +1,10 @@
 import React from 'react';
+import Layout from './../../../components/Layout'
 import Thumbnail from './../../../components/Thumbnail';
 import oxxcup from './oxxcup.jpg';
 
-export default () => (
-  <div>
+export default ( props ) => (
+  <Layout {...props}>
     <h1>The Oxx's</h1>
     <h2>John Oxx</h2>
     <p>There is a christening for John Oxe on: 20 JAN 1782 Saint Mary, Woodbridge, Suffolk, England. Likely to be the same one.</p>
@@ -31,5 +32,5 @@ export default () => (
     <p>At time of marriage of <a href="/family/robson/robert">Robert Robson</a> and his daughter <a href="/family/oxx/maryholder">Mary Oxx</a> and his death his occupation is stated as "Master Mariner".</p>
     <p>Spelling of the Oxx surname seems to have been standardised around 1800. Hence the change of surname from Oxe.</p>
     <p>He died of inflammation of the brain at 72 Sparling Street, Liverpool.</p>
-</div>
+  </Layout>
 );

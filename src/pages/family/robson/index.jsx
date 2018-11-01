@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from "../../../components/layout"
 
 import intro from 'raw-loader!./intro.md'
 import snippet from './../../../snippet'
 
-export default () => (
-  <div>
+export default ( props ) => (
+  <Layout {...props}>
     <h1>The Robson's</h1>
     <h2>John Robson</h2>
     {snippet(intro)}
@@ -22,5 +23,5 @@ export default () => (
 </p>
 <p>Only William, the youngest of the children and Robert, the oldest went on to marry (at least to my knowledge). <a href="/family/robson/robert">Robert
 Robson</a> married Mary Holder Oxx 15th May 1842 and <a href="/family/robson/William/">William Robson</a> married <strong>Jane Wilkinson</strong> May 25th 1857.</p>
-  </div>
+  </Layout>
 );

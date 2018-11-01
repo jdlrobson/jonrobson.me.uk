@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Thumbnail from './../../components/Thumbnail'
+import Layout from "./../../components/layout"
 
 import herbert from './hunter/herbert.jpg'
 import frieda from './gartside/frieda.jpg'
@@ -10,8 +10,8 @@ import motivation from 'raw-loader!./motivation.md'
 import snippet from './../../snippet'
 import ian_funeral_pdf from './ianlyallrobson.pdf'
 
-export default () => (
-  <div>
+export default ( props ) => (
+  <Layout {...props}>
     <h1>Family</h1>
     {snippet(motivation)}
     <Thumbnail src={herbert} width="137" height="200"
@@ -37,5 +37,5 @@ export default () => (
     <p>Joan sadly passed away in April 2013 with her husband Ian, her brother John, her children and some of her grandchildren by her side.</p>
     <p>Five years later Ian, on the 2nd June 2018 was reunited with her. He also died peacefully with family at his side at the Princess Lodge Care Center, in Swindon. They both were loved fondly and will always be remembered.</p>
     <p>Both <a href={ian_funeral_pdf}>Ian</a> and Joan's funeral services took place at Shrivenham methodist church and they are both buried in St. Mary the Virgin Church in <a href="https://en.wikipedia.org/wiki/Ashbury,_Oxfordshire">Ashbury</a>.</p>
-  </div>
+  </Layout>
 );

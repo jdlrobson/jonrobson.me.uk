@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
-import { SITE_DESCRIPTION, SITE_THUMB, SITE_TITLE } from './../const'
+import Header from './../Header'
+import { SITE_DESCRIPTION, SITE_THUMB, SITE_TITLE } from './../../const'
 import './index.css'
 
 const getLocalTitle = function ( path ) {
@@ -17,7 +17,7 @@ const getLocalTitle = function ( path ) {
     return '';
   }
 }
-const TemplateWrapper = ({ children, location }) => (
+const Layout = ({ children, location }) => (
   <div>
     <Helmet
       title={getLocalTitle(location.pathname) + SITE_TITLE}
@@ -30,13 +30,8 @@ const TemplateWrapper = ({ children, location }) => (
     />
     <Header className="container" />
     <div className="container">
-      {children()}
+      {children}
     </div>
   </div>
-)
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
-
-export default TemplateWrapper
+);
+export default Layout;

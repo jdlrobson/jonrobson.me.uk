@@ -4,9 +4,10 @@ import goldenwedding from './goldenwedding2.jpg'
 import grave from './grave.jpg'
 
 import Thumbnail from './../../../../components/Thumbnail'
+import Layout from "../../../../components/layout"
 
-export default () => (
-  <div>
+export default ( props ) => (
+  <Layout {...props}>
     <h2>William Robson (born 1834)</h2>
     <em>Thank you to Clive Hodgson for providing all this information.</em>
     <p>Son of <a href="/family/robson">John Robson</a> and <strong>Jane Watson</strong>.</p>
@@ -36,5 +37,5 @@ Harold Street lay off South Salem Street and was destroyed in WW2. Harold Square
     <Thumbnail src={grave} large={true}
        caption="Gravestone of William Robson."
     />
-  </div>
+  </Layout>
 );

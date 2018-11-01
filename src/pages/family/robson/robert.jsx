@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Layout from "../../../components/layout"
 
-export default () => (
-  <div>
+export default ( props ) => (
+  <Layout {...props}>
     <h1>The Robson's</h1>
     <h2>Robert Robson</h2>
     <p>Son of <a href="/family/robson">John Robson</a> and <strong>Jane Watson</strong>.</p>
@@ -26,5 +27,5 @@ export default () => (
 
 <p>To my knowledge, only <strong>John Robson</strong> (marrying Martha Lyall), <strong>Hannah Mary Augusta Robson</strong> (marrying <strong>James Bulmer</strong>) and <strong>Frances Isabell Woodhouse Robson</strong> (marrying Thomas Bellwood) went on to have children. <strong>Harriett Jane Robson</strong> married <strong>Thomas Hunter</strong> but I am not aware of any children.</p>
 
-  </div>
+  </Layout>
 );

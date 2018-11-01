@@ -1,7 +1,8 @@
 import React from 'react'
+import Layout from './../../../components/Layout'
 
-export default () => (
-  <div>
+export default ( props ) => (
+  <Layout {...props}>
     <h2>Anthony John Hunter</h2>
     <em>(Words by his sister Kathryn Ann)</em>
     <p>Our brother Anthony was kind, intelligent, handsome, funny, a brave adventurer and very, very charming. He was the first born child; son of Herbert and Freda, brother to Kathryn, Richard  and Julia.
@@ -28,5 +29,5 @@ We love our brother and we will miss him terribly.
 </p><p>
 But his life story has been amazing and we are so very proud of him.
 </p>
-  </div>
+  </Layout>
 );

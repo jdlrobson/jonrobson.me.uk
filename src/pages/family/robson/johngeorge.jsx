@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from "../../../components/layout"
 import Thumbnail from './../../../components/Thumbnail';
 import clock from './files/Clock1.jpg';
 import clock2 from './files/Clock2.jpg';
 
-export default () => (
-  <div>
+export default ( props ) => (
+  <Layout {...props}>
     <h1>The Robson's</h1>
     <h2>John George Robson</h2>
     <p>Son of <a href="/family/robson/robert">Robert Robson</a> and <a href="/family/oxx/maryholder">Mary Holder Oxx</a>.
@@ -35,7 +36,7 @@ export default () => (
       Interestingly, sons Robert and Matthew are living at Culla House, Pembrey, Llanelly, East Carmarthen as boarders in a house owned by LLoyd. Probably not related, but I wondered if this was any relation to the servant.
     </p>
     <p>John George died 19th April 1923 in Port Talbot and was buried at the Chapel of Ease.</p>
-  </div>
+  </Layout>
 );
     /*
     View Record Maud Lloyd abt 1877 Shelton, Staffordshire, England Servant Aberavon Glamorgan

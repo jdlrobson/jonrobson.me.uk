@@ -1,7 +1,8 @@
 import React from 'react';
+import Layout from './../../../components/Layout'
 
-export default () => (
-  <div>
+export default ( props ) => (
+  <Layout {...props}>
     <h1>The Oxx's</h1>
     <h2>Hutchinson Maxwell Oxx</h2>
     <p>Hutchinson Maxwell Oxx, born 1820 was the daughter of <a href="/family/oxx/john">John Oxx</a> and <strong>Woodhouse Spearman</strong>.</p>
@@ -15,5 +16,5 @@ export default () => (
     </p>
     <p>Hutchinson Maxwell died in December 1820.</p>
     <p>There is a surviving line of this branch. More information about this line of the family can be provided by Simon Walker, who I am in contact with.</p>
-  </div>
+  </Layout>
 );

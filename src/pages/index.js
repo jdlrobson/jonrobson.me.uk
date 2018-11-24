@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Thumbnail from './../components/Thumbnail'
 import { ME_IMG_URL } from './../const'
 
-import Layout from "./../components/layout"
+import Layout from "./../components/Layout"
 
 const IndexPage = ( props ) => (
   <Layout {...props}>

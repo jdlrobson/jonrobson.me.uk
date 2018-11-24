@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from "../../../components/layout"
+import Layout from "../../../components/Layout"
 import Thumbnail from './../../../components/Thumbnail';
 import clock from './files/Clock1.jpg';
 import clock2 from './files/Clock2.jpg';

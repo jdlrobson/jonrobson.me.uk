@@ -4,7 +4,7 @@ import goldenwedding from './goldenwedding2.jpg'
 import grave from './grave.jpg'
 
 import Thumbnail from './../../../../components/Thumbnail'
-import Layout from "../../../../components/layout"
+import Layout from "../../../../components/Layout";
 
 export default ( props ) => (
   <Layout {...props}>

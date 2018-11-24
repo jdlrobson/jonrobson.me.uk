@@ -22,6 +22,7 @@ const Layout = ({ children, location }) => (
     <Helmet
       title={getLocalTitle(location.pathname) + SITE_TITLE}
       meta={[
+        { name: 'google-site-verification', content: 'KsGrYwiBz9gOEq0kFbloZIzd5hW8lWrdBotKwULp-jQ' },
         { name: 'description', content: SITE_DESCRIPTION },
         { name: 'og:description', content: SITE_DESCRIPTION },
         { name: 'keywords', content: 'sample, something' },

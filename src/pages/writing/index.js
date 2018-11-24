@@ -3,7 +3,7 @@ import './index.css'
 
 import Tinderella from './Tinderella.pdf'
 
-import Layout from "./../../components/layout"
+import Layout from "./../../components/Layout"
 
 export default ( props ) => (
   <Layout {...props}>

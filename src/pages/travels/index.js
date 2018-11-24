@@ -2,7 +2,7 @@ import React from 'react'
 import Thumbnail from './../../components/Thumbnail'
 import map from './map.png'
 
-import Layout from "./../../components/layout"
+import Layout from "./../../components/Layout"
 
 export default ( props ) => (
   <Layout {...props}>

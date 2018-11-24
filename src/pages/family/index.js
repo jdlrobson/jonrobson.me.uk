@@ -1,6 +1,6 @@
 import React from 'react'
 import Thumbnail from './../../components/Thumbnail'
-import Layout from "./../../components/layout"
+import Layout from "./../../components/Layout"
 
 import herbert from './hunter/herbert.jpg'
 import frieda from './gartside/frieda.jpg'

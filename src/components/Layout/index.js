@@ -28,7 +28,8 @@ const Layout = ({ children, location }) => (
         { name: 'keywords', content: 'sample, something' },
         { name: 'og:image', content: SITE_THUMB }
       ]}
-    />
+    >
+    </Helmet>
     <Header className="container" />
     <div className="container">
       {children}

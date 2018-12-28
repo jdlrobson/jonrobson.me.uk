@@ -1,5 +1,5 @@
-import React from 'react'
-import gifme from './gifme.gif'
+import React from "react";
+import gifme from "./gifme.gif";
 
 const NotFoundPage = () => (
   <div>
@@ -7,6 +7,6 @@ const NotFoundPage = () => (
     <img src={gifme} />
     <p>I'm truly, truly sorry.</p>
   </div>
-)
+);
 
-export default NotFoundPage
+export default NotFoundPage;

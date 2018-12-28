@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import { BG_COLOR } from "./../../const";
 
 const Thumbnail = ({
   src,

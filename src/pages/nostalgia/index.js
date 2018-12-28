@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import Thumbnail from "./../../components/Thumbnail";
 
 import jonnysworld from "./jonnysworld.png";

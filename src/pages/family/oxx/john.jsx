@@ -17,7 +17,7 @@ export default ( props ) => (
     <strong>John Amass</strong> (born and died 1806), <strong>
     George Spearman Oxx</strong> (born 1806), <strong>
     Hannah Frances OXX</strong> (born 1810), <strong>
-    Amass Oxx</strong> (born and died 1812), <a href="/family/oxx/maryholder">
+    Amass Oxx</strong> (born and died 1812), <a href="/family/oxx/mary_holder">
     Mary Holder Oxx</a> (born 1814) <strong>
     Harriett Woodhouse OXX</strong> (born 1807) <a href="/family/oxx/hutchinsonmaxwell">
     Hutchinson Maxwell Oxx</a> (born 1820) <strong>
@@ -29,7 +29,7 @@ export default ( props ) => (
     <Thumbnail src={oxxcup} caption="This cup was awarded to John Oxx. Currently in posession of the Robson family." float="right" />
     <p>A John Oxx married Mary Harris in St. Mary, Warwick on 4 November 1828 which would have been 2 years after Woodhouse's death in 1826. If it is the same John how did he get to Warwick? Was he a widower on marriage? Did he have any further children?
     </p>
-    <p>At time of marriage of <a href="/family/robson/robert">Robert Robson</a> and his daughter <a href="/family/oxx/maryholder">Mary Oxx</a> and his death his occupation is stated as "Master Mariner".</p>
+    <p>At time of marriage of <a href="/family/robson/robert">Robert Robson</a> and his daughter <a href="/family/oxx/mary_holder">Mary Oxx</a> and his death his occupation is stated as "Master Mariner".</p>
     <p>Spelling of the Oxx surname seems to have been standardised around 1800. Hence the change of surname from Oxe.</p>
     <p>He died of inflammation of the brain at 72 Sparling Street, Liverpool.</p>
   </Layout>

@@ -8,7 +8,7 @@ export default ( props ) => (
   <Layout {...props}>
     <h1>The Robson's</h1>
     <h2>John George Robson</h2>
-    <p>Son of <a href="/family/robson/robert">Robert Robson</a> and <a href="/family/oxx/maryholder">Mary Holder Oxx</a>.
+    <p>Son of <a href="/family/robson/robert">Robert Robson</a> and <a href="/family/oxx/mary_holder">Mary Holder Oxx</a>.
     He was my great great grandfather.</p>
     <p>John George was born 2nd March 1843 in Middlesex, York.</p>
     <p>During his life he worked as a roll turner in the steel works (1881 census) and he married <strong>Martha Isabell Lyall</strong>.</p>

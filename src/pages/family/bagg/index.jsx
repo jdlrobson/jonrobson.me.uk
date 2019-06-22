@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from './../../../components/Layout'
+import Layout from './../../../components/Layout';
+import marked from '../../../marked';
+import snippet from 'raw-loader!../../../../jonrobson.me.uk.wiki/bagg.md';
 
 export default ( props ) => (
   <Layout {...props}>
-    <h2>The Bagg family tree</h2>
-    <p><a href="/familytree/John%20David%20Bagg.html">The Bagg family tree</a> is
-     traced back only 3 generations.</p>
+  <div dangerouslySetInnerHTML={marked(snippet)} />
   </Layout>
 );

@@ -2,7 +2,7 @@
 import React from 'react'
 import Layout from '../../../components/Layout';
 import marked from '../../../marked';
-import snippet from 'raw-loader!../../../../jonrobson.me.uk.wiki/robson.md';
+import snippet from 'raw-loader!../../../../jonrobson.me.uk.wiki/Robson.md';
 
 export default ( props ) => (
   <Layout {...props}>

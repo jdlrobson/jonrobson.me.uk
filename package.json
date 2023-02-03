@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Jon Robson <jdlrobson@gmail.com>",
   "dependencies": {
-    "gatsby": "2.10.0",
+    "gatsby": "5.5.0",
     "gatsby-link": "2.0.6",
     "gatsby-plugin-google-analytics": "2.0.8",
     "gatsby-plugin-react-helmet": "3.0.1",
